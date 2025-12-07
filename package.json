@@ -1,0 +1,60 @@
+{
+  "name": "youtube-caption-node",
+  "version": "1.0.0",
+  "description": "A TypeScript-powered Node.js module to fetch and parse YouTube video transcripts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "test": "npm run build && node tests/runTests.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "youtube",
+    "transcript",
+    "captions",
+    "subtitles",
+    "typescript",
+    "youtube-api",
+    "youtube-captions",
+    "video-transcription"
+  ],
+  "author": {
+    "name": "Rohit Nishad",
+    "email": "r.n.rohitnishad@gmail.com",
+    "url": "https://github.com/merohitnishad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merohitnishad/youtube-captions-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/merohitnishad/youtube-captions-node/issues"
+  },
+  "homepage": "https://github.com/merohitnishad/youtube-captions-node#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}

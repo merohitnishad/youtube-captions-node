@@ -1,0 +1,14 @@
+# Source files (we only publish dist/)
+src/
+tests/
+tsconfig.json
+
+# Development files
+.DS_Store
+.git
+.gitignore
+*.log
+test-output.txt
+
+# Build artifacts not needed in published package
+*.tsbuildinfo
