@@ -116,7 +116,6 @@ import {
 - Website: [rohitnishad.com](https://rohitnishad.com)
 - GitHub: [@merohitnishad](https://github.com/merohitnishad)
 - npm: [rohitnishad](https://www.npmjs.com/~rohitnishad)
-- Email: r.n.rohitnishad@gmail.com
 
 ## Links
 
